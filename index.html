@@ -5,12 +5,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
+    <svg id="game-board" width="80%" viewBox="10 10 2000 1000">
       <!-- Create all the shapes for your game board here! -->
+      <rect x="1" y="1" width="1198" height="398"
+             fill="none" stroke="blue" stroke-width="2" />
 
-         <line x1="10" y1="30" x2="30" y2="10"
+       <g stroke="green" >
+         <line x1="100" y1="300" x2="300" y2="100"
                  stroke-width="5"  />
-
+         <line x1="300" y1="300" x2="500" y2="100"
+                 stroke-width="10"  />
+         <line x1="500" y1="300" x2="700" y2="100"
+                 stroke-width="15"  />
+         <line x1="700" y1="300" x2="900" y2="100"
+                 stroke-width="20"  />
+         <line x1="900" y1="300" x2="1100" y2="100"
+                 stroke-width="25"  />
+       </g>
     </svg>
 
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
